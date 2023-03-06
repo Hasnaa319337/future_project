@@ -1,10 +1,7 @@
 <template>
-<footer>
-
-    <v-container>
-        footer
-    </v-container>
-</footer>
+  <div class="products_slider">
+    
+  </div>
 </template>
 
 <script>
