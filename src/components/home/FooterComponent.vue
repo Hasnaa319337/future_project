@@ -2,7 +2,7 @@
   <footer>
     <v-container>
       <v-row>
-        <v-col cols="12" lg="3" md="12" xs="12"><img src="@/assets/images/الشعار كبير pdf 1.svg"/></v-col>
+        <v-col cols="12" lg="3" md="12" xs="12"><img src="@/assets/images/big_logo.svg"></v-col>
         <v-col cols="12" lg="3" md="6" sm="6" xs="12">
           <h2 class="secondary_head">رعاية العميل:</h2>
           <ul class="list">
