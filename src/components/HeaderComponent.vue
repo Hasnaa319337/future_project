@@ -9,7 +9,7 @@
         </li>
         <li class="header_item"><router-link to="/packages">الباقات</router-link></li>
         <li class="header_item">
-          <router-link to="/">تواصل معنا</router-link>
+          <router-link to="/contact">تواصل معنا</router-link>
         </li>
       </ul>
     </v-container>
