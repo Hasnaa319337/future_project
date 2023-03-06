@@ -7,6 +7,7 @@
           lg="3"
           md="3"
           sm="6"
+          xs="6"
           class="program"
           v-for="program in programs"
           :key="program.id"

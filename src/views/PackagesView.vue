@@ -1,9 +1,7 @@
 <template>
-  <div class="about">
+  <div class="packages">
     <HeaderComponent />
-
-    <about-header/>
-    <OurProgrames />
+<OurPackages/>
     <Footercomponent />
   </div>
 </template>
@@ -11,15 +9,13 @@
 <script>
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import Footercomponent from "@/components/FooterComponent.vue";
-
-import OurProgrames from "@/components/about/OurProgrames.vue";
-import AboutHeader from '@/components/about/AboutHeader.vue';
+import OurPackages from "@/components/packages/OurPackages.vue"
 export default {
-  components: {
+    components: {
     HeaderComponent,
     Footercomponent,
-    AboutHeader,
-    OurProgrames
+    OurPackages
+
 
   },
 };

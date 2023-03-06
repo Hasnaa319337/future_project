@@ -99,4 +99,10 @@ export default {};
   text-align: center;
   margin: 20px 0;
 }
+
+@media (max-width: 700px) {
+  .carousal_contain {
+    font-size: 18px;
+  }
+}
 </style>

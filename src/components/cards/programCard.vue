@@ -34,7 +34,6 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 .program_card .program_text {
   padding: 20px;
@@ -45,7 +44,7 @@ export default {
 }
 .program_card .program_name {
   font-size: 24px;
-  font-family: "Podkova-Bold";
+  font-family: "Podkova-SemiBold";
 }
 .program_card .program_info {
   font-family: "Podkova-Regular";

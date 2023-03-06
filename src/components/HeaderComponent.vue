@@ -7,7 +7,7 @@
         <li class="header_item">
           <router-link to="/about">من نحن</router-link>
         </li>
-        <li class="header_item"><router-link to="/">الباقات</router-link></li>
+        <li class="header_item"><router-link to="/packages">الباقات</router-link></li>
         <li class="header_item">
           <router-link to="/">تواصل معنا</router-link>
         </li>
