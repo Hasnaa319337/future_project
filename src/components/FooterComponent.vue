@@ -2,7 +2,9 @@
   <footer>
     <v-container>
       <v-row>
-        <v-col cols="12" lg="3" md="12" xs="12"><img src="@/assets/images/big_logo.svg"></v-col>
+        <v-col cols="12" lg="3" md="12" xs="12"
+          ><img src="@/assets/images/big_logo.svg"
+        /></v-col>
         <v-col cols="12" lg="3" md="6" sm="6" xs="12">
           <h2 class="secondary_head">رعاية العميل:</h2>
           <ul class="list">
@@ -22,9 +24,19 @@
             <li class="list_item">هاتف : hhhh1343</li>
           </ul>
           <div class="social_icon">
-            <span><img src="@/assets/images/instagram.svg"/></span>
-            <span><img src="@/assets/images/facebook.svg"/></span>
-            
+            <ul>
+              <li>
+                <a
+                  ><img src="../assets/images/instagram.94a9fb4.svg" alt=""
+                /></a>
+              </li>
+
+              <li>
+                <a
+                  ><img src="../assets/images/facebook.cd7efd5.svg" alt=""
+                /></a>
+              </li>
+            </ul>
           </div>
         </v-col>
         <v-col cols="12" lg="3" md="12" xs="12">
@@ -58,7 +70,6 @@ footer {
   background-color: rgb(122 158 145 / 43%);
 }
 
-
 .list_item {
   font-size: 16px;
   font-family: "Podkova-Regular";
@@ -89,14 +100,33 @@ footer {
   padding: 0 8px;
   direction: ltr;
 }
-
-.social_icon span{
-margin: 5px;
-
+.social_icon ul {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 13px;
+  justify-items: center;
+  cursor: pointer;
 }
-.social_icon img{
-width: 50px;
-height: 50px;
+.social_icon span {
+  margin: 5px;
+}
+.social_icon img {
+  width: 50px;
+  height: 50px;
+}
 
+.social_icon ul {
+  padding: 0;
+}
+.social_icon li {
+  margin: 0;
+  margin-right: 14px;
+}
+.social_icon img {
+  width: 32px;
+}
+.social_icon img:hover {
+  transform: rotate(20deg) scale(1.03);
+  transition: 0.3s all ease-in-out;
 }
 </style>

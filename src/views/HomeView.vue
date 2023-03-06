@@ -1,14 +1,18 @@
 <template>
-  <!-- <fixedbanner/> -->
-  <ProductsSlider/>
-  <CommentsComponent/>
-  <FooterComponent/>
+  <div>
+    <HeaderComponent />
+    <!-- <fixedbanner/> -->
+    <ProductsSlider />
+    <CommentsComponent />
+    <FooterComponent />
+  </div>
 </template>
 
 <script setup>
+import HeaderComponent from "@/components/HeaderComponent.vue";
 import ProductsSlider from "@/components/home/ProductsSlider.vue";
 import CommentsComponent from "@/components/home/CommentsComponent.vue";
-import FooterComponent from "@/components/home/FooterComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 
 // import fixedbanner from "@/components/home/FixedBanner.vue";
 </script>

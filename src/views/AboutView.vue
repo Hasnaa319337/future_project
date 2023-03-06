@@ -1,15 +1,22 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <HeaderComponent />
+    <OurProgrames />
+    <Footercomponent />
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<script>
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import Footercomponent from "@/components/FooterComponent.vue";
+import OurProgrames from "@/components/about/OurProgrames.vue";
+export default {
+  components: {
+    HeaderComponent,
+    Footercomponent,
+    OurProgrames,
+  },
+};
+</script>
+
+<style></style>

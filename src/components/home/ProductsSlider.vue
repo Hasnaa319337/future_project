@@ -24,7 +24,7 @@
 <script>
 import { Carousel, Slide, Navigation } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
-import ProdutCard from "@/components/ProductCard.vue";
+import ProdutCard from "@/components/cards/ProductCard.vue";
 export default {
   components: {
     Carousel,
