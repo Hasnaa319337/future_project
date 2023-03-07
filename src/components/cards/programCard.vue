@@ -20,6 +20,7 @@ export default {
   height: 400px;
   transform: scale(1);
   transition: all 0.5s linear;
+  margin-bottom: 10px;
 }
 .program_card:hover {
   transition: all 0.5s linear;

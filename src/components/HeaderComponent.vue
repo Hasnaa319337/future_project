@@ -3,7 +3,9 @@
     <v-container>
       <ul class="header_list">
         <li class="header_item"><router-link to="/">الرئسية</router-link></li>
-        <li class="header_item"><router-link to="/products">منتجاتنا</router-link></li>
+        <li class="header_item">
+          <router-link to="/products">منتجاتنا</router-link>
+        </li>
         <li class="header_item">
           <router-link to="/about">من نحن</router-link>
         </li>
@@ -56,9 +58,17 @@ header {
   color: #313131;
 }
 .router-link-active {
-  font-weight:700 !important;
+  font-weight: 700 !important;
   font-size: 20px !important;
   color: #313131 !important;
 }
-
+@media (max-width: 400px) {
+  .header_item a {
+    color: white;
+    position: relative;
+    margin: 13px;
+    font-size: 13px;
+    font-family: "Podkova-Regular";
+  }
+}
 </style>

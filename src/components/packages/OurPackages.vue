@@ -138,4 +138,12 @@ export default {};
     left: 39%;
   }
 }
+@media (max-width: 400px) {
+
+    .package_num {
+    width: 120px;
+    height: 120px;
+    left: 33%;
+  }
+}
 </style>

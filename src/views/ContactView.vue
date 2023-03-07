@@ -58,6 +58,7 @@ export default {
 <style scoped>
 .contact {
   margin: 50px 20px;
+  
 }
 .contact_info {
   display: flex;
@@ -65,6 +66,7 @@ export default {
   align-items: center;
   justify-items: center;
   flex-direction: column;
+  text-align: center;
 }
 .contact_info h3 {
   font-family: "Podkova-Bold";

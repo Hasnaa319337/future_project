@@ -60,8 +60,9 @@ export default {
 <style>
 .our_programes {
   background-color: rgb(122 158 145 / 43%);
-  margin-bottom: 30px;
+ 
   padding: 40px 0;
   border-radius: 8px;
+  margin: 20px ;
 }
 </style>
