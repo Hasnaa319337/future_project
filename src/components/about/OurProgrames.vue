@@ -31,7 +31,7 @@ export default {
           id: 1,
           name: "برامج تعليمية",
           info: "برامج تعليمية متنوعة تناسب كل الأعمار الصغار والكبار وجميع المراحل",
-          img: "/http://127.0.0.1:5173/src/assets/images/Colorful%20Books.png",
+          img: "http://127.0.0.1:5173/src/assets/images/Colorful%20Books.png",
         },
         {
           id: 2,
