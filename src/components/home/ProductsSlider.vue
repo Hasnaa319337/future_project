@@ -42,7 +42,7 @@ export default {
           sale_price: 25,
           rating: 4.1,
           image:
-            "https://static.wixstatic.com/media/22e53e_6818890490334e429d78876ba5f757ce~mv2.jpg/v1/fill/w_431,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22e53e_6818890490334e429d78876ba5f757ce~mv2.jpg",
+            "https://static.wixstatic.com/media/22e53e_b53f9a53db034e178a3f2d794ae70f1c~mv2.jpg/v1/fill/w_431,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22e53e_b53f9a53db034e178a3f2d794ae70f1c~mv2.jpg",
         },
 
         {
