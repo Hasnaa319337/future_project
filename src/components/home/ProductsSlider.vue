@@ -40,9 +40,9 @@ export default {
           name: "I am A Product",
           price: 20,
           sale_price: 25,
-          rating: 4.8,
+          rating: 4.1,
           image:
-            "/src/assets/images/22e53e_01575d792adb43a6a16595bd74a1cc8d_mv2.png",
+            "http://127.0.0.1:5173/src/assets/images/22e53e_01575d792adb43a6a16595bd74a1cc8d_mv2.png",
         },
       
         {
@@ -50,27 +50,27 @@ export default {
           name: "I am A Product",
           price: 20,
           sale_price: 25,
-          rating: 4.8,
+          rating: 3.5,
           image:
-            "/src/assets/images/22e53e_6818890490334e429d78876ba5f757ce_mv2.png",
+            "http://127.0.0.1:5173/src/assets/images/22e53e_6818890490334e429d78876ba5f757ce_mv2.png",
         },
         {
           id: 3,
           name: "I am A Product",
           price: 20,
           sale_price: 25,
-          rating: 4.8,
+          rating: 4.7,
           image:
-            "/src/assets/images/22e53e_7066c7318bb34be38d3a4f2e3a256021_mv2.png",
+            "http://127.0.0.1:5173/src/assets/images/22e53e_7066c7318bb34be38d3a4f2e3a256021_mv2.png",
         },
         {
           id: 4,
           name: "I am A Product",
           price: 20,
           sale_price: 25,
-          rating: 4.8,
+          rating: 5,
           image:
-            "/src/assets/images/22e53e_efc1552d8050407f82ea158302d0debd_mv2.png",
+            "http://127.0.0.1:5173/src/assets/images/22e53e_efc1552d8050407f82ea158302d0debd_mv2.png",
         },
       ],
       breakpoints: {
