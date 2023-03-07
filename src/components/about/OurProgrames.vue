@@ -43,7 +43,7 @@ export default {
           id: 3,
           name: "برامج ترفيهية",
           info: "برامج ترفيهية متنوعة تناسب كل الأعمار الصغار والكبار وجميع المراحل",
-          img:"/src/assets/images/Soccer.png"
+          img:"../../assets/images/Soccer.png"
         },
         {
           id: 4,
