@@ -26,7 +26,8 @@
       </div>
 
       <div class="form-group">
-        <MainButton type="submit" :btn_contain="btn_contain" />
+        <!-- type="submit" -->
+        <MainButton  :btn_contain="btn_contain" />
       </div>
     </form>
   </div>
