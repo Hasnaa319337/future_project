@@ -48,6 +48,7 @@ export default {};
   align-items: center;
   flex-direction: column;
   width: 58%;
+  text-align: center;
     
 }
 .about_header_head{
