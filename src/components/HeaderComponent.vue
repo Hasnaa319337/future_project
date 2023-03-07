@@ -3,7 +3,7 @@
     <v-container>
       <ul class="header_list">
         <li class="header_item"><router-link to="/">الرئسية</router-link></li>
-        <li class="header_item"><router-link to="/">منتجاتنا</router-link></li>
+        <li class="header_item"><router-link to="">منتجاتنا</router-link></li>
         <li class="header_item">
           <router-link to="/about">من نحن</router-link>
         </li>
