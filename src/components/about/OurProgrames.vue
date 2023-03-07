@@ -49,7 +49,7 @@ export default {
           id: 4,
           name: "برامج تحفيزية",
           info: "برامج تحفيزية متنوعة تناسب كل الأعمار الصغار والكبار وجميع المراحل",
-          img:"/src/assets/images/Unwrapping Present.png"
+          img:"http://127.0.0.1:5173/src/assets/images/Unwrapping%20Present.png"
         },
       ],
     };
