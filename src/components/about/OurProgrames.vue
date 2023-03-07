@@ -31,25 +31,25 @@ export default {
           id: 1,
           name: "برامج تعليمية",
           info: "برامج تعليمية متنوعة تناسب كل الأعمار الصغار والكبار وجميع المراحل",
-          img: "/src/assets/images/Colorful Books.png",
+          img: "/http://127.0.0.1:5173/src/assets/images/Colorful%20Books.png",
         },
         {
           id: 2,
           name: "برامج نخبوية",
           info: "برامج نخبوية متنوعة تناسب كل الأعمار الصغار والكبار وجميع المراحل",
-          img:"/src/assets/images/Educational Toys.png"
+          img: "http://127.0.0.1:5173/src/assets/images/Educational%20Toys.png",
         },
         {
           id: 3,
           name: "برامج ترفيهية",
           info: "برامج ترفيهية متنوعة تناسب كل الأعمار الصغار والكبار وجميع المراحل",
-          img:"../../assets/images/Soccer.png"
+          img: "http://127.0.0.1:5173/src/assets/images/Soccer.png",
         },
         {
           id: 4,
           name: "برامج تحفيزية",
           info: "برامج تحفيزية متنوعة تناسب كل الأعمار الصغار والكبار وجميع المراحل",
-          img:"http://127.0.0.1:5173/src/assets/images/Unwrapping%20Present.png"
+          img: "http://127.0.0.1:5173/src/assets/images/Unwrapping%20Present.png",
         },
       ],
     };
@@ -58,12 +58,10 @@ export default {
 </script>
 
 <style>
-.our_programes{
-    background-color: rgb(122 158 145 / 43%);
-    margin-bottom: 30px;
-    padding: 40px 0;
-    border-radius: 8px;
-
+.our_programes {
+  background-color: rgb(122 158 145 / 43%);
+  margin-bottom: 30px;
+  padding: 40px 0;
+  border-radius: 8px;
 }
-
 </style>
