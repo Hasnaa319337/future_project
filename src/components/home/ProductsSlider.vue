@@ -1,22 +1,22 @@
 <template>
   <div class="products_slider">
     <v-container>
-        <Carousel
-      :wrap-around="true"
-      :autoplay="1"
-      :transition="8000"
-      :breakpoints="breakpoints"
-      :show-arrows="true"
-    >
-      <Slide v-for="product in products" :key="product.id">
-        <!-- <div class="carousel__item">image</div> -->
-        <ProdutCard :product="product" />
-      </Slide>
+      <Carousel
+        :wrap-around="true"
+        :autoplay="1"
+        :transition="8000"
+        :breakpoints="breakpoints"
+        :show-arrows="true"
+      >
+        <Slide v-for="product in products" :key="product.id">
+          <!-- <div class="carousel__item">image</div> -->
+          <ProdutCard :product="product" />
+        </Slide>
 
-      <template #addons>
-        <Navigation />
-      </template>
-    </Carousel>
+        <template #addons>
+          <Navigation />
+        </template>
+      </Carousel>
     </v-container>
   </div>
 </template>
@@ -42,9 +42,9 @@ export default {
           sale_price: 25,
           rating: 4.1,
           image:
-            "http://127.0.0.1:5173/src/assets/images/22e53e_01575d792adb43a6a16595bd74a1cc8d_mv2.png",
+            "https://static.wixstatic.com/media/22e53e_6818890490334e429d78876ba5f757ce~mv2.jpg/v1/fill/w_431,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22e53e_6818890490334e429d78876ba5f757ce~mv2.jpg",
         },
-      
+
         {
           id: 2,
           name: "I am A Product",
@@ -52,7 +52,7 @@ export default {
           sale_price: 25,
           rating: 3.5,
           image:
-            "http://127.0.0.1:5173/src/assets/images/22e53e_6818890490334e429d78876ba5f757ce_mv2.png",
+            "https://static.wixstatic.com/media/22e53e_6818890490334e429d78876ba5f757ce~mv2.jpg/v1/fill/w_431,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22e53e_6818890490334e429d78876ba5f757ce~mv2.jpg",
         },
         {
           id: 3,
@@ -61,7 +61,7 @@ export default {
           sale_price: 25,
           rating: 4.7,
           image:
-            "http://127.0.0.1:5173/src/assets/images/22e53e_7066c7318bb34be38d3a4f2e3a256021_mv2.png",
+            "https://static.wixstatic.com/media/22e53e_a5d9116384fb4659918c011a75175f77~mv2.jpg/v1/fill/w_363,h_363,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22e53e_a5d9116384fb4659918c011a75175f77~mv2.jpg",
         },
         {
           id: 4,
@@ -70,7 +70,7 @@ export default {
           sale_price: 25,
           rating: 5,
           image:
-            "http://127.0.0.1:5173/src/assets/images/22e53e_efc1552d8050407f82ea158302d0debd_mv2.png",
+            "https://static.wixstatic.com/media/22e53e_4092f4f0f4d844afaed1cfde3069a6da~mv2.jpg/v1/fill/w_363,h_363,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22e53e_4092f4f0f4d844afaed1cfde3069a6da~mv2.jpg",
         },
       ],
       breakpoints: {
@@ -96,10 +96,10 @@ export default {
 </script>
 
 <style>
-.carousel__prev{
+.carousel__prev {
   left: -100px;
 }
-.carousel__next{
+.carousel__next {
   right: -100px;
 }
 </style>
