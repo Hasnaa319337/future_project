@@ -1,4 +1,5 @@
 <template>
+     <NavbarComponent />
   <HeaderComponent />
   <div class="contact">
     <div class="contact_info">
@@ -37,10 +38,13 @@
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import Footercomponent from "@/components/FooterComponent.vue";
 import MainButton from "@/components/ui/MainButton.vue";
+import NavbarComponent from "@/components/NavbarComponent.vue";
+
 export default {
   components: {
     HeaderComponent,
     Footercomponent,
+    NavbarComponent,
     MainButton,
   },
   data() {
@@ -106,7 +110,7 @@ textarea {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
   font-size: 1.1rem;
 }

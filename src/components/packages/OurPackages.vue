@@ -44,7 +44,7 @@ export default {};
   background-size: cover !important;
   background-position: center !important;
   margin: 30px 0;
-  padding: 100px 0;
+  padding: 100px 20px;
 }
 .container {
   max-width: 1050px;

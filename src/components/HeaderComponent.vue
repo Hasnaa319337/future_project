@@ -7,7 +7,9 @@
         <li class="header_item">
           <router-link to="/about">من نحن</router-link>
         </li>
-        <li class="header_item"><router-link to="/packages">الباقات</router-link></li>
+        <li class="header_item">
+          <router-link to="/packages">الباقات</router-link>
+        </li>
         <li class="header_item">
           <router-link to="/contact">تواصل معنا</router-link>
         </li>
@@ -43,27 +45,9 @@ header {
   font-family: "Podkova-Regular";
 }
 
-/* .header_item a::after {
-  content: "";
-  position: absolute;
-  bottom: -13px;
-  left: 0%;
-  display: block;
-  height: 2px;
-  width: 0%;
-  background-color: none;
-  border-radius: 8px;
-  transition: all 0.4s ease-in-out;
-  z-index: -20;
-}
 
-.header_item a:hover::after,.header_item a:active::after {
-  transition: all 0.4s ease-in-out;
-  background-color: black;
-  width: 100%;
-} */
-
-.header_item a:hover {
+ .header_item a:hover {
   color: #313131;
+  transform: translate(1.02);
 }
 </style>

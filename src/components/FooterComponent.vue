@@ -2,44 +2,50 @@
   <footer>
     <v-container>
       <v-row>
-        <v-col cols="12" lg="3" md="12" xs="12"
-          ><img src="@/assets/images/big_logo.svg"
-        /></v-col>
-        <v-col cols="12" lg="3" md="6" sm="6" xs="12">
-          <h2 class="secondary_head">رعاية العميل:</h2>
-          <ul class="list">
-            <li class="list_item">
-              <router-link to="/">اشتراكاتي</router-link>
-            </li>
-            <li class="list_item">
-              <router-link to="/">الدعم الفني</router-link>
-            </li>
-            <li class="list_item"><router-link to="/">رغباتي</router-link></li>
-          </ul>
-        </v-col>
-        <v-col cols="12" lg="3" md="6" sm="6" xs="12">
-          <h2 class="secondary_head">تواصل معنا:</h2>
-          <ul class="list">
-            <li class="list_item">البريد الإلكتروني : hhhh1343</li>
-            <li class="list_item">هاتف : hhhh1343</li>
-          </ul>
-          <div class="social_icon">
-            <ul>
-              <li>
-                <a
-                  ><img src="../assets/images/instagram.94a9fb4.svg" alt=""
-                /></a>
+        <v-col cols="12" lg="4" md="4" sm="12" xs="12" class="logo"
+          ><router-link to="/"
+            ><img src="@/assets/images/big_logo.svg" /></router-link
+        ></v-col>
+        <v-col cols="12" lg="4" md="4" sm="12" xs="12" class="links">
+          <div>
+            <h2 class="secondary_head">رعاية العميل:</h2>
+            <ul class="list">
+              <li class="list_item">
+                <router-link to="/mysubcription">اشتراكاتي</router-link>
               </li>
-
-              <li>
-                <a
-                  ><img src="../assets/images/facebook.cd7efd5.svg" alt=""
-                /></a>
+              <li class="list_item">
+                <router-link to="/">الدعم الفني</router-link>
+              </li>
+              <li class="list_item">
+                <router-link to="/mywishes">رغباتي</router-link>
               </li>
             </ul>
           </div>
+          <div>
+            <h2 class="secondary_head">تواصل معنا:</h2>
+            <ul class="list">
+              <li class="list_item">البريد الإلكتروني : hhhh1343</li>
+              <li class="list_item">هاتف : hhhh1343</li>
+            </ul>
+            <div class="social_icon">
+              <ul>
+                <li>
+                  <a
+                    ><img src="../assets/images/instagram.94a9fb4.svg" alt=""
+                  /></a>
+                </li>
+
+                <li>
+                  <a
+                    ><img src="../assets/images/facebook.cd7efd5.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </v-col>
-        <v-col cols="12" lg="3" md="12" xs="12">
+
+        <v-col cols="12" lg="4" md="4" sm="12" xs="12" class="email_box">
           <h2 class="secondary_head">هل تريد الإطلاع على آخر العروض؟</h2>
           <v-form>
             <label class="email_label">بريدك الإلكتروني</label>
@@ -69,7 +75,16 @@ export default {
 footer {
   background-color: rgb(122 158 145 / 43%);
 }
-
+.links {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  margin-bottom: 20px;
+  
+}
+.logo {
+  margin-bottom: 20px;
+}
 .list_item {
   font-size: 16px;
   font-family: "Podkova-Regular";
@@ -128,5 +143,17 @@ footer {
 .social_icon img:hover {
   transform: rotate(20deg) scale(1.03);
   transition: 0.3s all ease-in-out;
+}
+
+@media (max-width: 960px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .email_box {
+    flex-direction: column;
+  }
 }
 </style>
