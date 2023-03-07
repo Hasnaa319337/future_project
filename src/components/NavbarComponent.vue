@@ -2,9 +2,7 @@
   <v-container>
     <nav>
       <div class="logo">
-        <router-link to="/"
-          ><img src="@/assets/images/logo.png"
-        /></router-link>
+        <router-link to="/"><img src="../assets/images/logo.png" /></router-link>
       </div>
 
       <div class="icons">

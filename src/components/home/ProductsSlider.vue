@@ -95,4 +95,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.carousel__prev{
+  left: -100px;
+}
+.carousel__next{
+  right: -100px;
+}
+</style>

@@ -86,7 +86,7 @@ export default {};
   width: 50%;
   position: absolute;
   top: 20%;
-  left: 22%;
+  left: 23%;
   font-family: "Podkova-Regular";
   font-size: 24px;
 }
