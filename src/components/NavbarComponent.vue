@@ -2,14 +2,17 @@
   <v-container>
     <nav>
       <div class="logo">
-        <router-link to="/"><img src="../assets/images/logo.png" /></router-link>
+        <router-link to="/"
+          ><img src="../assets/images/logo.png"
+        /></router-link>
       </div>
 
       <div class="icons">
         <div class="cart_icon">
-          <router-link to="/">
+          <router-link to="/mycart">
             <img src="@/assets/images/shopping-cart.svg"
           /></router-link>
+          <span>عربتي</span>
         </div>
 
         <div class="line"></div>
@@ -30,6 +33,7 @@
           <router-link to="/"
             ><img src="@/assets/images/user.svg"
           /></router-link>
+          <span>حسابي</span>
         </div>
       </div>
     </nav>
@@ -106,6 +110,45 @@ nav .list:hover .user_list {
 }
 nav .user_list a:hover {
   color: white;
+}
+
+nav .cart_icon,
+nav .profile_icon {
+  line-height: 1.5;
+
+  position: relative;
+  display: inline-block;
+}
+nav .cart_icon span,
+nav .profile_icon span {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  width: max-content;
+  padding: 0 8px;
+  font-size: 14px;
+  font-family: Cairo-Medium;
+  background-color: #f7f5ef;
+  color: #313131;
+  box-shadow: 0 0 10px 2px hsl(0deg 0% 88% / 30%);
+  border-radius: 8px;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+  transform-origin: top;
+  transform: scale(0);
+  display: none;
+}
+
+nav .cart_icon:hover > span,
+nav .profile_icon:hover > span {
+  transform: scale(1);
+  display: block;
+
+  right: -9px;
+  top: 40px;
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 800px) {

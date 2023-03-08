@@ -1,6 +1,7 @@
 <template>
   <div class="button_div">
-    <button>{{ btn_contain }}</button>
+    <button class="main_button">{{ btn_contain }}</button>
+ 
   </div>
 </template>
 
@@ -10,14 +11,14 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .button_div{
   display: flex;
   justify-content: center;
   align-items: center;
   justify-items: center;
 }
-button {
+.main_button {
   text-align: center;
   color: white;
   transition: all 0.5s linear;
@@ -36,7 +37,7 @@ button {
 
 
 }
-button:hover {
+.main_button:hover {
   transition: all 0.5s linear;
   color: #7a9e91;
   background-position: 0;

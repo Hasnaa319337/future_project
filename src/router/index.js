@@ -64,6 +64,22 @@ const router = createRouter({
 
       component: () => import("@/views/UserLinks/MySubscriptions.vue"),
     },
+
+
+    // cart
+    {
+      path: "/mycart",
+      name: "mycart",
+
+      component: () => import("@/views/CartView.vue"),
+    },
+    {
+      path: "/payment-details",
+      name: "payment-details",
+
+      component: () => import("@/views/PaymentView.vue"),
+    },
+
   ],
 });
 

@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .contact {
   margin: 50px 20px;
   
@@ -106,25 +106,5 @@ export default {
   color: #B7B2B2;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
-  font-size: 1.1rem;
-}
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-  outline: none;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-}
-textarea{
-    height: 170px;
-}
 </style>
