@@ -171,6 +171,9 @@ display: inline-block;
 .payment_form textarea {
   font-size: 16px;
 }
+.payment_form textarea{
+    margin-top: 30px;
+}
 .payment_form button {
   height: 45px;
 }

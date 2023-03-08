@@ -30,7 +30,7 @@
           </ul>
         </div>
         <div class="profile_icon">
-          <router-link to="/"
+          <router-link to="/myaccount"
             ><img src="@/assets/images/user.svg"
           /></router-link>
           <span>حسابي</span>

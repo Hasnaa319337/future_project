@@ -184,4 +184,8 @@ export default {
 .modale_hidden {
   display: none;
 }
+
+input{
+    margin-bottom: 30px;
+}
 </style>
