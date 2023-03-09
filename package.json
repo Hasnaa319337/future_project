@@ -13,6 +13,7 @@
     "axios": "^1.2.2",
     "bootstrap": "^5.2.3",
     "bootstrap-vue": "^2.23.1",
+    "bootstrap-vue-3": "^0.5.1",
     "jquery": "^3.6.3",
     "mdb-vue-ui-kit": "^3.1.1",
     "sass": "^1.32.7",

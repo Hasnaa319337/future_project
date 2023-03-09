@@ -8,7 +8,7 @@
       </div>
 
       <div class="icons">
-        <router-link to="/login" class="auth_button"> سجل الان </router-link>
+        <router-link to="/signup" class="auth_button"> سجل الان </router-link>
         <div class="cart_icon">
           <router-link to="/mycart">
             <img src="@/assets/images/shopping-cart.svg"

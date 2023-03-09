@@ -297,7 +297,7 @@ export default {
 .best_seller .product_card,
 .latest_product .product_card{
 height: 280px;
-padding: 10px 0;
+padding: 10px ;
 }
 .best_seller .product_card .image_card,
 .latest_product .product_card .image_card {
