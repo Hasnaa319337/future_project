@@ -95,7 +95,7 @@ footer {
 .list_item a {
   color: black;
   padding-bottom: 10px;
-  text-decoration: underline !important;
+  
 }
 .list_item a:hover {
   color: #7a9e91;

@@ -14,6 +14,7 @@
     "bootstrap": "^5.2.3",
     "bootstrap-vue": "^2.23.1",
     "jquery": "^3.6.3",
+    "mdb-vue-ui-kit": "^3.1.1",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
     "vue": "^3.2.47",

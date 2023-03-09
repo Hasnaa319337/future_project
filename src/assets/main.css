@@ -3,7 +3,6 @@
 /* scrollbar */
 body::-webkit-scrollbar {
   width: 8px; /* width of the entire scrollbar */
-  
 }
 
 body::-webkit-scrollbar-track {
@@ -33,6 +32,19 @@ html {
   font-family: "Podkova-Regular";
   src: local("podkova"),
     url(./fonts/podkova/Podkova-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Cairo-SemiBold";
+  src: local("Cairo"), url(./fonts/Cairo/Cairo-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cairo-Regular";
+  src: local("Cairo"), url(./fonts/Cairo/Cairo-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cairo-Medium";
+  src: local("Cairo"), url(./fonts/Cairo/Cairo-Medium.ttf) format("truetype");
 }
 
 * {
@@ -195,3 +207,7 @@ textarea {
   height: calc(100% + 10px);
   border-color: #222222;
 }
+
+/* Start:: style product card */
+
+/* End:: style product card */

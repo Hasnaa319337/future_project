@@ -51,7 +51,7 @@
     <div class="modale">
       <div class="modal-dialog">
         <h3>تم الدفع</h3>
-        <button class="button-close closemodale">&times;</button>
+        <!-- <button class="button-close closemodale">&times;</button> -->
       </div>
     </div>
   </div>

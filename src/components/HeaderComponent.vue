@@ -33,7 +33,7 @@ header {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  margin-top: 1rem;
+  margin: 6px 0;
 }
 
 .header_item {

@@ -1,6 +1,9 @@
 <template>
-  <div class="product_card">
+  <div class="product_card" v-if="product">
+    <img class="fav" src="@/assets/images/fav.svg" />
+
     <img class="image_card" :src="product.image" />
+
     <h4 class="product_name">{{ product.name }}</h4>
     <div class="Price_and_rating">
       <div class="price">
@@ -42,7 +45,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .product_card {
   position: relative;
   width: 300px;
@@ -53,16 +56,25 @@ export default {
   padding: 20px;
   margin: 0 10px;
 }
+.product_card .fav {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
 .product_card .image_card {
   width: 218px;
   height: 218px;
   border-radius: 50%;
   object-fit: cover;
+  margin: auto;
 }
 .product_card .product_name {
   font-size: 16px;
   margin-top: 10px;
   font-family: "Podkova-Regular";
+  text-align: center;
 }
 
 .product_card .Price_and_rating {
@@ -79,7 +91,6 @@ export default {
 
 .price_after {
   font-size: 16px;
-
 }
 .price_before {
   text-decoration: line-through;
@@ -88,8 +99,8 @@ export default {
   margin: 0 5px;
   display: inline-block;
 }
-.rate_value{
-    font-size: 16px;
+.rate_value {
+  font-size: 16px;
   margin: 0 5px;
   display: inline-block;
 }
