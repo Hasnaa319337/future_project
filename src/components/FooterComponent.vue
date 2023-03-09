@@ -74,13 +74,13 @@ export default {
 <style scoped>
 footer {
   background-color: rgb(122 158 145 / 43%);
+  font-family: "Podkova-Regular";
 }
 .links {
   display: flex;
   justify-content: space-around;
   justify-items: center;
   margin-bottom: 20px;
-  
 }
 .logo {
   margin-bottom: 20px;
@@ -89,10 +89,13 @@ footer {
   font-size: 16px;
   font-family: "Podkova-Regular";
   margin: 6px 0px;
+  
 }
 
 .list_item a {
   color: black;
+  padding-bottom: 10px;
+  text-decoration: underline !important;
 }
 .list_item a:hover {
   color: #7a9e91;

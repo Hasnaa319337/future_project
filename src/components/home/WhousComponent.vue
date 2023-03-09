@@ -28,14 +28,15 @@ export default {};
   background-image: url("../../assets/images/about-background.png");
   background-size: cover;
   background-position: 50% 50%;
-  height: 333px;
+  height: 400px;
   width: 100%;
   display: flex;
   align-items: center;
+  padding: 50px 0;
 }
 .whous_contain {
- width: 30%;
-  margin-bottom:30px;
+  width: 30%;
+  margin-bottom: 30px;
   padding: 20px;
 
   background: #7a9e91;
@@ -71,14 +72,21 @@ export default {};
   padding-top: 5px;
 }
 
-
 .logo_image {
-   width: 30%;
-   height: 100%;
-   margin: auto;
+ 
+  height: 100%;
+  margin: auto;
 }
 .logo_image img {
   width: 100% !important;
   height: 100% !important;
+}
+@media (max-width: 800px) {
+  .whous_contain{
+    width: 45%;
+  }
+.logo_image{
+  width: 350px;
+}  
 }
 </style>

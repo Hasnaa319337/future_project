@@ -2,7 +2,8 @@
   <div class="hero">
     <v-carousel>
       <v-carousel-item
-        src="https://static.wixstatic.com/media/623504_e7942bb7e62340099341dbc32a52e206~mv2.png/v1/fill/w_1899,h_748,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/623504_e7942bb7e62340099341dbc32a52e206~mv2.png"
+      src="https://static.wixstatic.com/media/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg/v1/fill/w_1899,h_748,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg"
+
         cover
         ><div class="slider_contain">
           <h3>(1) انضم إلينا في جيل المستقبل</h3>
@@ -14,7 +15,8 @@
       >
 
       <v-carousel-item
-        src="https://static.wixstatic.com/media/623504_e0f8424b576d4cdb98c7d6a6aadb59cb~mv2.jpg/v1/fill/w_1600,h_630,al_c,q_85,enc_auto/623504_e0f8424b576d4cdb98c7d6a6aadb59cb~mv2.jpg"
+      src="https://static.wixstatic.com/media/623504_e7942bb7e62340099341dbc32a52e206~mv2.png/v1/fill/w_1899,h_748,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/623504_e7942bb7e62340099341dbc32a52e206~mv2.png"
+
         cover
       >
         <div class="slider_contain">
@@ -27,7 +29,7 @@
       </v-carousel-item>
 
       <v-carousel-item
-        src="https://static.wixstatic.com/media/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg/v1/fill/w_1899,h_748,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg"
+      src="https://static.wixstatic.com/media/623504_e0f8424b576d4cdb98c7d6a6aadb59cb~mv2.jpg/v1/fill/w_1600,h_630,al_c,q_85,enc_auto/623504_e0f8424b576d4cdb98c7d6a6aadb59cb~mv2.jpg"
         cover
       >
         <div class="slider_contain">
@@ -79,6 +81,7 @@ export default {};
   text-align: center;
   padding: 20px;
   position: relative;
+  margin: 20px;
 }
 .hero .slider_contain h3 {
   font-size: 32px;
@@ -119,6 +122,8 @@ export default {};
   }
   .hero .slider_contain .btn {
     font-size: 14px;
+    padding-top: 10px;
+    left: 30%;
   }
 }
 /* end:contain style */
