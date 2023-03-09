@@ -37,15 +37,17 @@ import VueAxios from "vue-axios";
 
 import "bootstrap/dist/css/bootstrap.css";
 // import "bootstrap-vue/dist/bootstrap-vue.css";
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap"
+// import "bootstrap/dist/css/bootstrap.min.css"
+// import bootstrap from 'bootstrap'
+// import BootstrapVue from 'bootstrap-vue';
 const app = createApp(App)
 
 app.use(router)
 app.use(vuetify);
 app.use(VueAxios, axios);
 
-
+// app.use(bootstrap)
+// app.use(BootstrapVue)
 
 
 app.mount('#app')

@@ -20,7 +20,7 @@ export default {
 }
 .main_button {
   text-align: center;
-  color: white;
+
   transition: all 0.5s linear;
   border-radius: 8px;
   width: 150px;
