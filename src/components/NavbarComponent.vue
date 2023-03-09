@@ -8,6 +8,7 @@
       </div>
 
       <div class="icons">
+        <router-link to="/login" class="auth_button"> سجل الان </router-link>
         <div class="cart_icon">
           <router-link to="/mycart">
             <img src="@/assets/images/shopping-cart.svg"
@@ -50,6 +51,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   justify-items: center;
+}
+nav .logo {
+  width: 200px;
+  height: 50px;
+}
+nav .logo img {
+  width: 100%;
+  height: 100%;
 }
 
 nav .icons {
@@ -149,6 +158,36 @@ nav .profile_icon:hover > span {
   right: -9px;
   top: 40px;
   transition: all 0.3s ease-in-out;
+}
+
+.auth_button {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: "Podkova-Regular";
+
+  background-image: linear-gradient(90deg, transparent 50%, #7a9e91 0);
+  background-position: 100%;
+  background-size: 400%;
+
+  border-radius: 35px;
+  transition: all 0.6s ease-in-out;
+  margin: 0;
+  font-size: 14px;
+
+  width: max-content;
+  color: #313131;
+  background-image: linear-gradient(90deg, transparent 50%, #fbf9f4 0);
+  border: 1px solid #fbf9f4;
+}
+.auth_button:hover {
+  background-position: 0;
+  background-color: transparent;
 }
 
 @media (max-width: 800px) {

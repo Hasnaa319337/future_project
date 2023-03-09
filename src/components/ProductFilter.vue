@@ -12,33 +12,28 @@
             <form @submit.prevent="myMethod">
               <div class="allfiltergroups">
                 <!-- new contain  -->
- <!-- price box -->
- <MDBAccordionItem
-              headerTitle="price"
-              collapseId="stayOpen-collapseOne"
-            >
-              <div class="filter_list shown_list">
-              
-                <input
-                  type="range"
-                  class="form-range"
-                  min="0"
-                  max="5"
-                  id="customRange2"
-                />
-             
-
-              </div>
-            </MDBAccordionItem>
+            
                 <MDBAccordion
                   v-model="activeItem"
                   stayOpen
                   class="MDBAccordionItem"
                 >
+                    <!-- price box -->
+                    <MDBAccordionItem headerTitle="price" collapseId="stayOpen-collapseOne">
+                  <div class="filter_list shown_list">
+                    <input
+                      type="range"
+                      class="form-range"
+                      min="0"
+                      max="5"
+                      id="customRange2"
+                    />
+                  </div>
+                </MDBAccordionItem>
                   <!-- size box -->
                   <MDBAccordionItem
                     headerTitle="size"
-                    collapseId="stayOpen-collapseOne"
+                    collapseId="collapseOne-collapseTwo"
                   >
                     <div class="filter_list shown_list">
                       <div class="size_buttons">
@@ -53,7 +48,7 @@
                   <!-- colors box -->
                   <MDBAccordionItem
                     headerTitle="colors"
-                    collapseId="stayOpen-collapseOne"
+                    collapseId="collapseTwo-collaseThree"
                   >
                     <div class="filter_list shown_list">
                       <div class="colors">
@@ -86,7 +81,6 @@
               collapseId="stayOpen-collapseOne"
             >
               <div class="filter_list shown_list">
-              
                 <input
                   type="range"
                   class="form-range"
@@ -94,7 +88,6 @@
                   max="5"
                   id="customRange2"
                 />
-            
               </div>
             </MDBAccordionItem>
             <!-- size box -->
@@ -480,12 +473,7 @@ label {
   outline: 0;
   box-shadow: none;
 }
-.accordion-item:not(:first-of-type) {
-}
 
-.accordion-button::after {
-  display: none;
-}
 .reset {
   font-size: 14px;
   font-family: "Podkova-Regular";
@@ -495,10 +483,7 @@ label {
 .reset span {
   margin: 0 10px;
 }
-.form-range{
-    height: 0 !important;
+.form-range {
+  height: 0 !important;
 }
-
-
-
 </style>

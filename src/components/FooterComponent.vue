@@ -23,22 +23,18 @@
           </div>
           <div>
             <h2 class="secondary_head">تواصل معنا:</h2>
-            <ul class="list">
-              <li class="list_item">البريد الإلكتروني : hhhh1343</li>
-              <li class="list_item">هاتف : hhhh1343</li>
+            <ul class="social_icon">
+              <li class="list_item"><img src="../assets/images/noun-email-5548518.svg"/>:info@future.com </li>
+              <li class="list_item"> <img style="    width: 27px;" src="../assets/images/phone-outline-icon.svg"/> : 971509033902 </li>
             </ul>
             <div class="social_icon">
               <ul>
                 <li>
-                  <a
-                    ><img src="../assets/images/instagram.94a9fb4.svg" alt=""
-                  /></a>
+                  <a><img src="../assets/images/instagram.svg" alt="" /></a>
                 </li>
 
                 <li>
-                  <a
-                    ><img src="../assets/images/facebook.cd7efd5.svg" alt=""
-                  /></a>
+                  <a><img src="../assets/images/facebook.svg" alt="" /></a>
                 </li>
               </ul>
             </div>
@@ -87,7 +83,7 @@ footer {
 }
 .list_item {
   font-size: 16px;
-  /* font-family: "Podkova-Regular"; */
+
   margin: 6px 0px;
   font-family: "Cairo-Regular";
 }
@@ -120,7 +116,6 @@ footer {
 .social_icon ul {
   display: flex;
   align-items: flex-end;
-  column-gap: 13px;
   justify-items: center;
   cursor: pointer;
 }
@@ -134,10 +129,11 @@ footer {
 
 .social_icon ul {
   padding: 0;
+  column-gap: 10px;
 }
 .social_icon li {
   margin: 0;
-  margin-right: 14px;
+ 
 }
 .social_icon img {
   width: 32px;
@@ -146,7 +142,9 @@ footer {
   transform: rotate(20deg) scale(1.03);
   transition: 0.3s all ease-in-out;
 }
-
+footer .list{
+  margin-bottom: 0;
+}
 @media (max-width: 960px) {
   .logo {
     display: flex;

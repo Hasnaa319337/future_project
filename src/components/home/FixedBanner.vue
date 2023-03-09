@@ -23,7 +23,7 @@ export default {};
   background-image: url("../../assets/images/packages_background.png");
   background-size: cover;
   background-position: 50% 50%;
-  height: 333px;
+  height: 280px;
   width: 100%;
   display: flex;
   align-items: center;

@@ -3,9 +3,9 @@
   <HeaderComponent />
   <div class="products">
     <h3 class="main_head">أحدث المنتجات</h3>
-    <ProductsSlider />
+    <div class="latest_product"><ProductsSlider /></div>
     <h3 class="main_head">الأكثر مبيعًا</h3>
-    <ProductsSlider />
+    <div class="best_seller"><ProductsSlider /></div>
     <h3 class="main_head">منتجاتنا</h3>
     <v-row>
       <v-col cols="12" lg="2" md="2" xs="0" class="filter"
@@ -293,5 +293,15 @@ export default {
   justify-items: center;
   width: 160px;
   margin-block: 30px;
+}
+.best_seller .product_card,
+.latest_product .product_card{
+height: 280px;
+padding: 10px 0;
+}
+.best_seller .product_card .image_card,
+.latest_product .product_card .image_card {
+  width: 100px;
+  height: 100px;
 }
 </style>

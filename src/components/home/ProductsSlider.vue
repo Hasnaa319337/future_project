@@ -1,6 +1,9 @@
 <template>
   <div class="products_slider">
     <v-container>
+      <div class="first_block">
+       
+      </div>
       <Carousel
         :wrap-around="true"
         :autoplay="1"
@@ -101,5 +104,17 @@ export default {
 }
 .carousel__next {
   right: -100px;
+}
+.products_slider h3 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Podkova-Bold";
+
+  margin: 40px 0 10px;
+}
+.products_slider p {
+  font-size: 24px;
+  font-family: "Podkova-Regular";
+  margin-bottom: 40px;
 }
 </style>

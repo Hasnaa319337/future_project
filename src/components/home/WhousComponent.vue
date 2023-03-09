@@ -28,24 +28,24 @@ export default {};
   background-image: url("../../assets/images/about-background.png");
   background-size: cover;
   background-position: 50% 50%;
-  height: 400px;
+  height: 450px;
   width: 100%;
   display: flex;
   align-items: center;
   padding: 50px 0;
 }
 .whous_contain {
-  width: 30%;
+  width: 42%;
   margin-bottom: 30px;
-  padding: 20px;
 
+  padding: 30px 40px;
   background: #7a9e91;
   color: white;
   border-radius: 8px;
 }
 .whous_contain h4 {
   font-size: 24px;
-  margin-right: 20px;
+
   font-family: "Podkova-SemiBold";
 }
 .whous_contain p {
@@ -73,8 +73,7 @@ export default {};
 }
 
 .logo_image {
- 
-  height: 100%;
+  height: 85%;
   margin: auto;
 }
 .logo_image img {
@@ -82,11 +81,11 @@ export default {};
   height: 100% !important;
 }
 @media (max-width: 800px) {
-  .whous_contain{
+  .whous_contain {
     width: 45%;
   }
-.logo_image{
-  width: 350px;
-}  
+  .logo_image {
+    width: 350px;
+  }
 }
 </style>
