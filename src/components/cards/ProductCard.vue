@@ -55,6 +55,9 @@ export default {
   box-shadow: 0 0 10px 2px #e1e1e199;
   padding: 20px;
   margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .product_card .fav {
   position: absolute;
