@@ -66,9 +66,10 @@ ul {
 
 .secondary_head {
   font-size: 24px;
-  font-weight: 500;
+
   margin: 10px 0;
-  font-family: "Podkova-SemiBold";
+
+  font-family: "Cairo-Bold";
 }
 .main_head {
   font-size: 24px;

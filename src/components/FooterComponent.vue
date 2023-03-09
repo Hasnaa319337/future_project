@@ -87,15 +87,14 @@ footer {
 }
 .list_item {
   font-size: 16px;
-  font-family: "Podkova-Regular";
+  /* font-family: "Podkova-Regular"; */
   margin: 6px 0px;
-  
+  font-family: "Cairo-Regular";
 }
 
 .list_item a {
   color: black;
   padding-bottom: 10px;
-  
 }
 .list_item a:hover {
   color: #7a9e91;
