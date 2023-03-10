@@ -3,7 +3,7 @@
     <v-container>
       <div class="logo">
         <router-link to="/"
-          ><img src="../assets/images/logo.png"
+          ><img src="../assets/images/big_logo.svg"
         /></router-link>
       </div>
       <div class="container">
@@ -65,8 +65,8 @@ export default {};
   position: relative;
 }
 .sign .logo {
-  width: 250px;
-  height: 100px;
+  width: 200px;
+
   margin: 30px 0 50px ;
 }
 .sign .logo img {
@@ -169,6 +169,12 @@ div .right {
   }
   .right {
     display: none;
+  }
+}
+@media (max-width: 820px) {
+  .sign .logo {
+    width: 200px;
+    margin: 23px auto !important;
   }
 }
 </style>

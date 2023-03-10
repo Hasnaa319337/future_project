@@ -88,4 +88,40 @@ export default {};
     width: 350px;
   }
 }
+@media (max-width: 500px) {
+  .whous_contain h4 {
+    font-size: 18px;
+
+    font-family: "Podkova-SemiBold";
+  }
+  .whous_contain p {
+    font-size: 12px;
+    margin: 5px 0;
+    font-family: "Podkova-Regular";
+  }
+  .whous_contain a {
+    font-size: 16px;
+    padding-top: 2px;
+    width: 120px;
+    height: 30px;
+  }
+}
+@media (max-width: 380px) {
+  .whous_contain h4 {
+    font-size: 12px;
+
+    font-family: "Podkova-SemiBold";
+  }
+  .whous_contain p {
+    font-size: 8px;
+    margin: 5px 0;
+    font-family: "Podkova-Regular";
+  }
+  .whous_contain a {
+    font-size: 12px;
+    
+    width: 100px;
+    height: 30px;
+  }
+}
 </style>

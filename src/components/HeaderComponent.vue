@@ -71,4 +71,13 @@ header {
     font-family: "Podkova-Regular";
   }
 }
+@media (max-width: 380px) {
+  .header_item a {
+    color: white;
+    position: relative;
+    margin: 10px;
+    font-size: 10px;
+    font-family: "Podkova-Regular";
+  }
+}
 </style>

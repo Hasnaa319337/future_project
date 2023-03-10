@@ -3,7 +3,7 @@
     <v-container>
       <div class="logo">
         <router-link to="/"
-          ><img src="../assets/images/logo.png"
+          ><img src="../assets/images/big_logo.svg"
         /></router-link>
       </div>
       <div class="container">
@@ -50,7 +50,7 @@
 
             <input class="main_button" type="submit" value="تسجيل الدخول" />
           </form>
-          <p class="">أو تسجيل الخول عن طريق مواقع التواصل الاجتماعي</p>
+          <p class="">أو تسجيل الدخول عن طريق مواقع التواصل الاجتماعي</p>
           <div class="buttons">
             <a href="#" class="main_button">
               facebook
@@ -96,8 +96,8 @@ export default {};
 }
 
 .sign .logo {
-  width: 250px;
-  height: 100px;
+  width: 200px;
+ 
   margin: 20px 0 40px;
 }
 .sign .logo img {
@@ -197,6 +197,13 @@ div .right {
   }
   .right {
     display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  .sign .logo {
+    width: 200px;
+    margin: 23px auto !important;
   }
 }
 </style>
