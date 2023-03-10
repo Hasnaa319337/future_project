@@ -101,7 +101,7 @@ export default {};
   }
   .whous_contain a {
     font-size: 16px;
-    padding-top: 2px;
+ 
     width: 120px;
     height: 30px;
   }
