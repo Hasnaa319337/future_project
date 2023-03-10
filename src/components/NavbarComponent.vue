@@ -196,12 +196,14 @@ nav .profile_icon:hover > span {
   }
 }
 @media (max-width: 700px) {
-  nav .logo {
-    width: 250px;
-    height: 70px;
-  }
+
   nav .icons {
     column-gap: 15px;
+  }
+
+  nav .logo {
+    width: 120px;
+    height: 30px;
   }
 }
 
@@ -220,10 +222,5 @@ nav .profile_icon:hover > span {
   }
 }
 
-@media (max-width: 700px) {
-  nav .logo {
-    width: 100px;
-    height: 30px;
-  }
-}
+
 </style>
