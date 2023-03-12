@@ -117,4 +117,14 @@ export default {
   font-family: "Podkova-Regular";
   margin-bottom: 40px;
 }
+
+@media (max-width: 1500px) {
+  .carousel__prev {
+  left: 0;
+}
+.carousel__next {
+  right: 0;
+}
+  
+}
 </style>

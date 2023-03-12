@@ -1,22 +1,21 @@
 @import "./base.css";
 
 /* scrollbar */
-body::-webkit-scrollbar {
-  width: 8px; /* width of the entire scrollbar */
+/* body::-webkit-scrollbar {
+  width: 8px;
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(231, 231, 231); /* color of the tracking area */
+  background: rgb(231, 231, 231);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #7a9e91; /* color of the scroll thumb */
-  border-radius: 8px; /* roundness of the scroll thumb */
-  /* border: 3px solid orange;  creates padding around scroll thumb */
+  background-color: #7a9e91;
+  border-radius: 8px;
 }
 html {
   scroll-behavior: smooth;
-}
+} */
 
 @font-face {
   font-family: "Podkova-Bold";
