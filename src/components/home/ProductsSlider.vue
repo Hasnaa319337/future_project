@@ -1,9 +1,7 @@
 <template>
   <div class="products_slider">
     <v-container>
-      <div class="first_block">
-       
-      </div>
+      <div class="first_block"></div>
       <Carousel
         :wrap-around="true"
         :autoplay="1"
@@ -120,11 +118,10 @@ export default {
 
 @media (max-width: 1500px) {
   .carousel__prev {
-  left: 0;
-}
-.carousel__next {
-  right: 0;
-}
-  
+    display: none;
+  }
+  .carousel__next {
+    display: none;
+  }
 }
 </style>
